@@ -5,7 +5,7 @@ spring:
     username: ${DEMO_POSTGRESQL_USERNAME}
     password: ${DEMO_POSTGRESQL_PASSWORD}
 
-    # connection pool (usage: hikari pool)
+    # connection pool (usage: hikari pool)  
     hikari:
       connection-timeout: 30_000
       idle-timeout: 60_000
